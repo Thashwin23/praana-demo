@@ -1,17 +1,9 @@
-import { Text, View, StyleSheet } from "react-native";
+import React from 'react';
+import { Redirect } from 'expo-router';
 
 export default function Index() {
-  return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+  // In Phase 6, this entry point will route based on authentication status:
+  // if (!isAuthenticated) => '/(auth)/welcome'
+  // else => '/(tabs)'
+  return <Redirect href="/(tabs)" />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
