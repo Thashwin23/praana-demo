@@ -1,0 +1,24 @@
+{
+  "name": "praana-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PRAANA — Full-Stack Wearable Sports Performance Platform",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace=apps/mobile",
+    "backend": "npm run dev --workspace=apps/backend"
+  },
+  "keywords": [
+    "wearable",
+    "sports-performance",
+    "respiration",
+    "ecg",
+    "hrv",
+    "react-native",
+    "expo"
+  ],
+  "author": "PRAANA Team",
+  "license": "UNLICENSED"
+}
