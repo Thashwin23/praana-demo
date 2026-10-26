@@ -21,5 +21,8 @@
     "expo"
   ],
   "author": "PRAANA Team",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "expo-router": "~58.0.26"
+  }
 }
